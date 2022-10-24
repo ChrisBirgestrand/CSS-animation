@@ -1,0 +1,29 @@
+@keyframes f-card {
+    from {background-color: white;}
+    to {background-color: chocolate;}
+}
+
+.f-card {
+    animation-name: f-card;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes button {
+    from {border: 3px dotted greenyellow;}
+    to {border: 3px dotted pink;}
+}
+
+@keyframes button {
+    from {background-color: aqua;}
+    to {background-color: gold;}
+}
+
+.button {
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+

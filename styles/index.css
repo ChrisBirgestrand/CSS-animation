@@ -1,0 +1,46 @@
+.s-card {
+    display: flex;
+    justify-content: center;
+}
+
+.f-card {
+    width: 400px;
+    height: 700px;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    transition: 2s;
+    
+}
+
+.h2:hover {
+    width: 500px;
+    transition-delay: 2s;
+}
+
+.p {
+    display: flex;
+    justify-content: center;
+}
+
+.s-button {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    border: 3px dotted greenyellow;
+}
+
+.s-button:hover {
+    display: flex;
+    justify-content: start;
+}
